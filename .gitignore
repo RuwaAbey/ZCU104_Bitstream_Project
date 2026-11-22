@@ -1,0 +1,63 @@
+# ZCU104 Vivado / Vitis project
+# Keep source files, .xpr, .bd, .xci, .xdc, .tcl, .bif and automation scripts.
+
+# Vivado generated data
+.Xil/
+**/*.cache/
+**/*.gen/
+**/*.runs/
+**/*.sim/
+**/*.hw/
+**/*.ip_user_files/
+**/.rigel_lopper/
+**/.rigel_lopper_temp_platform/
+**/extracted/
+
+# Vitis generated data
+_ide/
+**/build/
+**/Debug/
+**/Release/
+**/.metadata/
+**/compile_commands.json
+vitis_journal.py
+workspace_journal*.py
+
+# Temporary files and logs
+*.jou
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# FPGA / Linux generated binaries: publish these as GitHub Release assets
+*.bit
+*.bin
+*.elf
+*.dtb
+*.dtbo
+*.dcp
+*.mcs
+*.wic
+*.wic.gz
+*.xsa
+*.hwh
+BOOT.BIN
+boot.scr
+image.ub
+rootfs.tar.gz
+
+# Local binary collections (source scripts and .bif files remain tracked)
+Backup_Images/
+Bitstream_files/
+Demo_files/
+Demo_bulk/
+
+# Release staging, archives, and SHA256SUMS.txt
+/dist/
+
+# Editor state
+.vscode/
+.idea/

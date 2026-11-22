@@ -1,0 +1,4 @@
+domain_path: /home/ruwa/Documents/Project_Folder/ZCU104_Bitstream_Project/GPIO_Project/Linux_GPIO/zynqmp_fsbl/zynqmp_fsbl_bsp
+app_src_dir: /tools/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl
+template: zynqmp_fsbl
+lang: c
